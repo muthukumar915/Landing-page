@@ -193,3 +193,101 @@ font-size: 16px;
     font-size: 16px;
 }
 /* section 4 style */
+
+.section-4{
+clear: both;
+padding-top: 70px;
+text-align: center;
+}
+.section-4 span{
+    color: #ff785d;
+    letter-spacing: 2;
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+.section-4 h2{
+    font-size: 47px;
+}
+.section-4 .lan-main{
+width: 100%;
+margin-top: 50px;
+}
+.section-4 .lan-div{
+width: 400px;
+display: inline-block;
+margin-right: 30px;
+
+}
+
+.section-4 .lan-main img{
+    width: 240px;
+    height: 300px;
+    float: left;
+}
+.section-4  .lan-div .lan-content{
+    float: right;
+    width: 150px;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.section-4  .lan-div .lan-content h3{
+    margin: 10px 0;
+    font-size: 22px;
+}
+/* footer section */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 100px 100px 70px;
+    margin-top: 50px;
+}
+.footer-box{
+    width: 400px;
+    display: inline-block;
+    margin-right:30px ;
+
+}
+.footer-box-2{
+    position: relative;
+    top:15px;
+}
+.footer-box-3{
+    position: relative;
+    top:-15px;
+}
+.footer-box h4{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.footer-box-2 a{
+text-decoration: none;
+color: white;
+display: block;
+font-size: 16px;
+line-height: 2;
+}
+.footer-box .icon-div{
+    /* background-color: #95ADBE;
+    color: white;
+    padding: 12px; */
+    margin-top: 20px;
+    /* padding: 12px; */
+}
+.footer-box .icon-div i{
+    background-color: #95ADBE;
+    color: white;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-box P{
+    margin-bottom: 25px;
+}
+.copy-rights{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+}

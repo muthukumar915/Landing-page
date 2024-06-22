@@ -92,16 +92,21 @@ nav a{
     /* justify-content: center; */
 /* align-items: center; */
 }
+nav a{
+    
+}
 
 /* section 1 style */
 .section-1{
  position: relative;
  left: 30px;
+ /* right: 30px; */
     padding: 70px;
-    background-image: url(fsd1.png);
+    background-image: url(tech6.webp);
     background-repeat: no-repeat;
     height: 100vh;
-    background-size: cover;
+    /* width: 100%; */
+    background-size:cover;
     background-attachment: fixed;
 }
 .section-1 .section-1-content{

@@ -87,22 +87,23 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 25px;
+    font-weight: bold;
     margin-right: 40px;
     text-transform: uppercase;
     /* justify-content: center; */
 /* align-items: center; */
 }
-nav a{
-    
+nav a:hover{
+    color: rgb(0, 191, 255);
 }
 
 /* section 1 style */
 .section-1{
  position: relative;
- left: 30px;
+ /* left: 30px; */
  /* right: 30px; */
     padding: 70px;
-    background-image: url(tech6.webp);
+    background-image: url(bg.webp);
     background-repeat: no-repeat;
     height: 100vh;
     /* width: 100%; */
@@ -185,6 +186,7 @@ font-size: 16px;
 .section-3-content p{
     line-height: 2;
     margin-bottom: 15px;
+    text-align: justify;
 }
 .section-3-content button{
     padding: 10px;
@@ -213,6 +215,7 @@ text-align: center;
 .section-4 h2{
     font-size: 47px;
 }
+
 .section-4 .lan-main{
 width: 100%;
 margin-top: 50px;
@@ -228,6 +231,7 @@ margin-right: 30px;
     width: 240px;
     height: 300px;
     float: left;
+    cursor: pointer;
 }
 .section-4  .lan-div .lan-content{
     float: right;
